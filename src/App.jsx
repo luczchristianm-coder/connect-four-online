@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useMemo, useState } from 'react';
+import React, { useCallback, useEffect, useMemo, useState } from 'react';
 import { ArrowDown, ArrowLeft, ArrowRight, Check, Copy, Crown, Gamepad2, Link2, LoaderCircle, Radio, RotateCcw, ShieldCheck, Sparkles, Users, Wifi, WifiOff } from 'lucide-react';
 import { hasSupabaseConfig, supabase } from './supabaseClient.js';
 
